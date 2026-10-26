@@ -1,5 +1,9 @@
 # repo-stats
 
+<!-- badges:start -->
+[![License](https://img.shields.io/github/license/monkey-sking/repo-stats?style=flat-square)](https://github.com/monkey-sking/repo-stats/blob/main/LICENSE) [![Last commit](https://img.shields.io/github/last-commit/monkey-sking/repo-stats?style=flat-square)](https://github.com/monkey-sking/repo-stats/commits/main) [![Python](https://img.shields.io/github/languages/top/monkey-sking/repo-stats?style=flat-square)](https://github.com/monkey-sking/repo-stats/search?l=Python) [![views](https://hits.sh/github.com/monkey-sking/repo-stats.svg?style=flat-square&label=views&color=0e75b6)](https://github.com/monkey-sking/repo-stats)
+<!-- badges:end -->
+
 Daily statistics for every public repository under [`monkey-sking`](https://github.com/monkey-sking) —
 stars, forks, traffic (views / unique visitors / clones), referrers, popular paths
 and commit activity — rendered as one static page.
