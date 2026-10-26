@@ -1,0 +1,55 @@
+name: collect
+
+# Manual trigger only.
+#
+# GITHUB_TOKEN can read traffic for THIS repository only, and this job needs
+# traffic for every other repo under the account. That requires a fine-grained
+# PAT with "Administration: read" on each repo, stored as STATS_TOKEN.
+# Without it, the job is a no-op.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for token
+        id: gate
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          if [ -z "$STATS_TOKEN" ]; then
+            echo "STATS_TOKEN not configured - skipping. See README."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.skip == 'false'
+        with:
+          python-version: "3.12"
+
+      - name: Collect snapshot
+        if: steps.gate.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python3 scripts/collect.py
+
+      - name: Commit
+        if: steps.gate.outputs.skip == 'false'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: $(date -u +%F) snapshot"
+            git push
+          fi
