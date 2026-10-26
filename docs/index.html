@@ -39,6 +39,7 @@
   .charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
   .chart-t{font-size:12px;color:var(--muted);margin-bottom:8px;display:flex;justify-content:space-between}
   .chart-t b{color:var(--fg);font-size:13px}
+  .chart-n{font-size:11px;color:var(--muted);margin-top:6px;min-height:0}
   svg{display:block;width:100%;height:auto;overflow:visible}
   .grid line{stroke:var(--line);stroke-width:1;stroke-dasharray:2 3}
   .axis text{fill:var(--muted);font-size:10px}
@@ -93,10 +94,12 @@
       <div class="panel">
         <div class="chart-t"><b>每日浏览 / 独立访客</b><span id="c1-sum"></span></div>
         <div id="chart-views"></div>
+        <div class="chart-n" id="c1-note"></div>
       </div>
       <div class="panel">
         <div class="chart-t"><b>每日克隆</b><span id="c2-sum"></span></div>
         <div id="chart-clones"></div>
+        <div class="chart-n" id="c2-note"></div>
       </div>
       <div class="panel">
         <div class="chart-t"><b>Star 总数</b><span id="c3-sum"></span></div>
@@ -258,6 +261,7 @@ let SNAP = [];          // array of {day, data} ascending
 let ROWS = [];          // flattened latest rows
 let sortKey = "views", sortDir = -1, selected = null;
 let LAST = {}, DAYS = [];
+const WINDOW_DAYS = 14; // rolling window rendered by the traffic charts
 
 /* -------------------------------------------------------------------- boot */
 async function boot() {
@@ -334,13 +338,20 @@ function renderCharts() {
       }
     }
   }
-  const trafficDays = Object.keys(viewByDay).sort();
+  // Rolling window: history accumulates forever, but only the tail is readable.
+  // The last bucket is *today* and therefore always incomplete - say so instead
+  // of letting it render as a mysterious dip.
+  const allDays = Object.keys(viewByDay).sort();
+  const trafficDays = allDays.slice(-WINDOW_DAYS);
   lineChart($("#chart-views"), [
     { name: "浏览", color: "var(--accent)", labels: trafficDays, values: trafficDays.map(d => viewByDay[d]), fill: true },
     { name: "独立访客", color: "var(--accent3)", labels: trafficDays, values: trafficDays.map(d => uniqByDay[d]) },
   ]);
   const tv = trafficDays.reduce((a, d) => a + viewByDay[d], 0);
-  $("#c1-sum").textContent = tv ? `14 天 ${fmt(tv)}` : "";
+  $("#c1-sum").textContent = tv ? `近 ${trafficDays.length} 天 ${fmt(tv)}` : "";
+  $("#c1-note").textContent = allDays.length > trafficDays.length
+    ? `共 ${allDays.length} 天历史 · 末点为当天进行中`
+    : (allDays.length ? "末点为当天进行中" : "");
 
   const cloneByDay = {};
   for (const s of SNAP) {
@@ -348,12 +359,13 @@ function renderCharts() {
       for (const [d, x] of Object.entries((r.clones || {}).daily || {})) cloneByDay[d] = x.count;
     }
   }
-  const cDays = Object.keys(cloneByDay).sort();
+  const cDays = Object.keys(cloneByDay).sort().slice(-WINDOW_DAYS);
   lineChart($("#chart-clones"), [
     { name: "克隆", color: "var(--accent2)", labels: cDays, values: cDays.map(d => cloneByDay[d]), fill: true },
   ]);
   const tc = cDays.reduce((a, d) => a + cloneByDay[d], 0);
-  $("#c2-sum").textContent = tc ? `14 天 ${fmt(tc)}` : "";
+  $("#c2-sum").textContent = tc ? `近 ${cDays.length} 天 ${fmt(tc)}` : "";
+  $("#c2-note").textContent = cDays.length ? "末点为当天进行中" : "";
 
   // Star total across snapshots (only meaningful once >1 day exists).
   const starSeries = SNAP.map(s => Object.values(s.data.repos || {}).reduce((a, r) => a + (r.stars || 0), 0));

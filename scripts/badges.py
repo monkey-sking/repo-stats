@@ -176,14 +176,55 @@ def _is_badge_line(line: str) -> bool:
     return "img.shields.io" in line or "hits.sh" in line or "badge.fury.io" in line
 
 
+FENCE = re.compile(r"^\s{0,3}(`{3,}|~{3,})")
+
+
+def _fence_mask(lines: list[str]) -> set[int]:
+    """Line indices that belong to a fenced code block, fence markers included."""
+    mask: set[int] = set()
+    marker: str | None = None
+    for i, ln in enumerate(lines):
+        m = FENCE.match(ln)
+        if marker is None:
+            if m:
+                marker = m.group(1)[0] * 3
+                mask.add(i)
+        else:
+            mask.add(i)
+            if m and m.group(1).startswith(marker):
+                marker = None
+    return mask
+
+
+def _block_span(lines: list[str]) -> tuple[int, int] | None:
+    """Locate the real managed block, ignoring markers quoted inside fences.
+
+    Documentation that *describes* this convention contains the markers inside a
+    ```markdown fence. Matching those would rewrite the example instead of the
+    badge block (observed on this project's own README), so skip fenced lines.
+    """
+    masked = _fence_mask(lines)
+    start = next(
+        (i for i, ln in enumerate(lines) if ln.strip() == START and i not in masked), None
+    )
+    if start is None:
+        return None
+    end = next(
+        (i for i in range(start + 1, len(lines)) if lines[i].strip() == END and i not in masked),
+        None,
+    )
+    return (start, end) if end is not None else None
+
+
 def splice(readme: str, block: str) -> str:
     """Insert or replace the managed badge block, leaving everything else alone."""
-    if START in readme and END in readme:
-        return re.sub(
-            re.escape(START) + r".*?" + re.escape(END), block, readme, count=1, flags=re.S
-        )
-
     lines = readme.split("\n")
+
+    span = _block_span(lines)
+    if span is not None:
+        s, e = span
+        return "\n".join(lines[:s] + [block] + lines[e + 1 :])
+
     # Skip a YAML front-matter block if present.
     start = 0
     if lines and lines[0].strip() == "---":
@@ -267,7 +308,7 @@ def main() -> int:
             skipped += 1
             continue
 
-        b0 = text.count(START)
+        b0 = _block_span(text.split("\n"))
         print(f"{'EDIT' if args.apply else 'PLAN'} {name}: "
               f"block@{'replace' if b0 else 'insert'} "
               f"({len(block)}B, {new.count('img.shields.io') + new.count('hits.sh')} badge urls)")
