@@ -1,7 +1,204 @@
 {
- "generated_at": "2026-10-26T08:27:54+00:00",
+ "generated_at": "2026-10-26T10:41:50+00:00",
  "owner": "monkey-sking",
  "repos": {
+  "repo-stats": {
+   "name": "repo-stats",
+   "description": "Daily stats for every public repo: stars, traffic, clones, referrers, commits — one static page, no build step",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 0,
+   "forks": 0,
+   "watchers": 0,
+   "open_issues": 0,
+   "contributors": 1,
+   "size_kb": 33,
+   "topics": [],
+   "homepage": null,
+   "created_at": "2026-10-26T08:37:42Z",
+   "pushed_at": "2026-10-26T08:59:56Z",
+   "archived": false,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-10-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-24": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-25": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-10-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-23": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-24": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-25": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-10-26": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "referrers": [],
+   "paths": []
+  },
   "Browser-F12": {
    "name": "Browser-F12",
    "description": "用来收集浏览器F12的脚本",
@@ -12,7 +209,7 @@
    "watchers": 1,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 10,
+   "size_kb": 11,
    "topics": [],
    "homepage": null,
    "created_at": "2020-09-08T03:44:04Z",
@@ -209,7 +406,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 12913,
+   "size_kb": 12914,
    "topics": [],
    "homepage": null,
    "created_at": "2026-05-24T01:50:54Z",
@@ -406,7 +603,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 25,
+   "size_kb": 28,
    "topics": [],
    "homepage": null,
    "created_at": "2025-08-17T00:50:32Z",
@@ -603,7 +800,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 31,
+   "size_kb": 33,
    "topics": [],
    "homepage": null,
    "created_at": "2026-01-17T10:23:09Z",
@@ -800,7 +997,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 9,
+   "size_kb": 11,
    "topics": [],
    "homepage": null,
    "created_at": "2026-01-13T01:22:56Z",
@@ -997,7 +1194,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 9,
+   "size_kb": 11,
    "topics": [],
    "homepage": null,
    "created_at": "2026-02-26T04:19:59Z",
@@ -1194,7 +1391,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 1482,
+   "size_kb": 1485,
    "topics": [],
    "homepage": null,
    "created_at": "2026-04-17T09:05:37Z",
@@ -1391,7 +1588,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 2,
-   "size_kb": 8395,
+   "size_kb": 8399,
    "topics": [],
    "homepage": null,
    "created_at": "2025-12-22T11:50:47Z",
@@ -1594,7 +1791,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 16,
+   "size_kb": 21,
    "topics": [],
    "homepage": null,
    "created_at": "2025-07-15T11:39:34Z",
@@ -1791,7 +1988,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 38,
+   "size_kb": 41,
    "topics": [],
    "homepage": null,
    "created_at": "2026-04-02T09:14:39Z",
@@ -1988,7 +2185,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 30,
+   "size_kb": 32,
    "topics": [],
    "homepage": null,
    "created_at": "2026-06-06T02:06:15Z",
@@ -2185,7 +2382,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 33,
+   "size_kb": 35,
    "topics": [],
    "homepage": null,
    "created_at": "2026-06-08T04:00:24Z",
@@ -2382,7 +2579,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 145,
+   "size_kb": 159,
    "topics": [],
    "homepage": null,
    "created_at": "2026-05-23T02:07:00Z",
@@ -2579,7 +2776,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 102,
+   "size_kb": 105,
    "topics": [],
    "homepage": null,
    "created_at": "2026-07-04T07:49:08Z",
@@ -2776,7 +2973,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 491,
+   "size_kb": 495,
    "topics": [],
    "homepage": null,
    "created_at": "2026-07-03T04:41:48Z",
@@ -2973,7 +3170,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 1093,
+   "size_kb": 1076,
    "topics": [],
    "homepage": null,
    "created_at": "2026-05-20T07:56:37Z",
@@ -3170,7 +3367,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 16,
+   "size_kb": 17,
    "topics": [],
    "homepage": null,
    "created_at": "2026-08-06T06:11:11Z",
@@ -3367,7 +3564,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 39,
+   "size_kb": 43,
    "topics": [],
    "homepage": null,
    "created_at": "2026-08-11T07:27:15Z",
@@ -3564,7 +3761,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 971,
+   "size_kb": 975,
    "topics": [],
    "homepage": null,
    "created_at": "2026-08-12T07:47:28Z",
@@ -3761,7 +3958,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 0,
+   "size_kb": 1,
    "topics": [],
    "homepage": null,
    "created_at": "2026-08-25T22:02:55Z",
@@ -3958,7 +4155,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 376,
+   "size_kb": 378,
    "topics": [],
    "homepage": null,
    "created_at": "2026-08-27T10:33:22Z",
@@ -4155,7 +4352,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 73,
+   "size_kb": 75,
    "topics": [],
    "homepage": null,
    "created_at": "2025-12-26T10:32:17Z",
@@ -4352,7 +4549,7 @@
    "watchers": 0,
    "open_issues": 1,
    "contributors": 1,
-   "size_kb": 192,
+   "size_kb": 195,
    "topics": [],
    "homepage": null,
    "created_at": "2026-09-09T08:18:31Z",
@@ -4549,7 +4746,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 43,
+   "size_kb": 45,
    "topics": [],
    "homepage": null,
    "created_at": "2026-09-10T04:32:03Z",
@@ -4746,7 +4943,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 51,
+   "size_kb": 54,
    "topics": [
     "browser-profiles",
     "chrome",
@@ -4950,7 +5147,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 4296,
+   "size_kb": 4300,
    "topics": [
     "agent",
     "ai",
@@ -5199,7 +5396,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 52,
+   "size_kb": 55,
    "topics": [
     "automation",
     "cron",
@@ -5402,7 +5599,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 3,
-   "size_kb": 10801,
+   "size_kb": 10807,
    "topics": [],
    "homepage": null,
    "created_at": "2025-07-18T06:15:51Z",
@@ -5605,7 +5802,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 10,
+   "size_kb": 11,
    "topics": [],
    "homepage": null,
    "created_at": "2026-10-21T13:15:22Z",
@@ -5808,7 +6005,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 15,
+   "size_kb": 18,
    "topics": [
     "deepseek-harness",
     "dsh",
@@ -6021,7 +6218,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 2,
-   "size_kb": 255,
+   "size_kb": 260,
    "topics": [
     "cordis",
     "cron",
@@ -6237,7 +6434,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 268,
+   "size_kb": 276,
    "topics": [
     "deepseek-harness",
     "dsh",
@@ -6444,7 +6641,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 122,
+   "size_kb": 126,
    "topics": [],
    "homepage": null,
    "created_at": "2026-10-24T13:54:20Z",
@@ -6641,7 +6838,7 @@
    "watchers": 0,
    "open_issues": 0,
    "contributors": 1,
-   "size_kb": 114,
+   "size_kb": 120,
    "topics": [],
    "homepage": null,
    "created_at": "2026-10-22T13:43:09Z",
