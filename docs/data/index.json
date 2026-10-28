@@ -1,9 +1,10 @@
 {
- "generated_at": "2026-10-27T01:46:50+00:00",
+ "generated_at": "2026-10-28T01:05:22+00:00",
  "owner": "monkey-sking",
  "days": [
   "2026-10-26",
-  "2026-10-27"
+  "2026-10-27",
+  "2026-10-28"
  ],
  "repos": [
   "Browser-F12",
@@ -22,9 +23,12 @@
   "browser-profile-launcher",
   "daily-commit-summarizer",
   "dsh-boot-resume",
+  "dsh-boss-panel",
+  "dsh-cron-guard",
   "dsh-im-global",
   "dsh-noagent-schedule",
   "dsh-plugin-peer-link",
+  "dsh-sidebar-tidy",
   "edge-checkin-bot",
   "feishu-doc-outline-enhancer",
   "game-wiki",
