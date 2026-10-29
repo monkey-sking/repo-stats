@@ -1,24 +1,33 @@
 {
- "generated_at": "2026-10-28T01:05:22+00:00",
+ "generated_at": "2026-10-29T01:05:14+00:00",
  "owner": "monkey-sking",
  "days": [
   "2026-10-26",
   "2026-10-27",
-  "2026-10-28"
+  "2026-10-28",
+  "2026-10-29"
  ],
  "repos": [
+  "Aether",
+  "Aether_Website",
+  "BiYou-public",
   "Browser-F12",
+  "DuoStage",
   "FabHelperScript",
   "GMKC",
   "InputReplay",
   "Jev-Clipboard-Guard",
   "MacMessageBackup",
+  "Portfolio",
   "QuickEventFunctionCreator",
+  "ReviewHub",
   "SymlinkAppUpdater",
   "TextGenie",
   "agent-cron-kit",
   "ai-art-asset-management",
   "ai-memory-hub",
+  "aion-downloads",
+  "apple-release-public",
   "blog-comments",
   "browser-profile-launcher",
   "daily-commit-summarizer",
@@ -44,7 +53,9 @@
   "run",
   "sgcc",
   "stitch-canvas-manager",
+  "sweep",
   "tg-timed-bot",
+  "warp-optimizer-public",
   "web-ai-guide-button",
   "x-follow-manager"
  ]
