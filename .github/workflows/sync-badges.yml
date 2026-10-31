@@ -1,0 +1,56 @@
+name: Sync project-aware README badges
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview changes without writing"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repo-badge-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo-stats
+        uses: actions/checkout@v4
+
+      - name: Check cross-repository token
+        id: token
+        env:
+          BADGE_SYNC_TOKEN: ${{ secrets.BADGE_SYNC_TOKEN }}
+        run: |
+          if [ -z "$BADGE_SYNC_TOKEN" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::BADGE_SYNC_TOKEN is not configured. Add a fine-grained token with Contents: read/write and Actions: read on the public repositories to enable cross-repository updates."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.token.outputs.configured == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync badges
+        if: steps.token.outputs.configured == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.BADGE_SYNC_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python3 scripts/badges.py --dry-run
+          else
+            python3 scripts/badges.py --apply
+          fi
