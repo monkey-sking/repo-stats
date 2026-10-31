@@ -74,7 +74,8 @@ least once every 14 days**; miss that and the days in between are lost forever
 
 ## README badges
 
-`scripts/badges.py` inserts a managed block into every public, non-fork README:
+`scripts/badges.py` maintains project-aware badges for public, non-fork repositories.
+It updates only the managed block:
 
 ```markdown
 <!-- badges:start -->
@@ -82,50 +83,47 @@ least once every 14 days**; miss that and the days in between are lost forever
 <!-- badges:end -->
 ```
 
-Re-running rewrites only that block, so it is safe to run repeatedly.
+### Badge selection rules
+
+| Project evidence | Badge added |
+|---|---|
+| Every public source repository | Stars, Forks, Last commit |
+| GitHub can identify the license, or a checked custom-license mapping exists | License |
+| GitHub detects a primary language | Language |
+| A real GitHub Release exists | Latest Release; Downloads when it has assets |
+| `package.json` is not private and npm registry confirms the package | npm version, monthly downloads |
+| A CI / test / build / security workflow has a run on the default branch within 45 days | That workflow's live status |
+
+No guessed coverage, passing tests, supported platforms, or package versions.
+Visitor counters are intentionally excluded because GitHub's image proxy cache
+makes them an unreliable count of real README readers. Existing project-specific
+badges outside the managed block are left alone.
+
+### Run locally
+
+Requires GitHub CLI authenticated with read access to the account's public
+repositories and write access to the README files being updated.
 
 ```bash
-python3 scripts/badges.py --dry-run     # preview
+python3 scripts/badges.py --dry-run
 python3 scripts/badges.py --apply
-python3 scripts/badges.py --apply --only ai-memory-hub
+python3 scripts/badges.py --apply --only TextGenie,DuoStage
 ```
 
-### What gets added, and why only that
+### Weekly GitHub Actions sync
 
-A survey of 40 mainstream repositories (got, axios, express, bun, deno, vscode,
-react, uptime-kuma, immich, n8n, dify, ollama, fastapi, ripgrep, lazygit, …)
-showed what people actually put in a README header:
+`.github/workflows/sync-badges.yml` supports manual runs and a weekly schedule.
+To let it update all public repositories, add a repository secret named
+`BADGE_SYNC_TOKEN` to **repo-stats**. Use a fine-grained PAT scoped to the
+public repositories you want managed, with:
 
-| Badge | Repos out of 40 | Used here |
-|---|---|---|
-| package version (npm/pypi/crates) | 15 | no — most repos here are not published |
-| community chat (Discord/Twitter) | 11 | no — nothing to link to |
-| download counts | 10 | no — same reason |
-| CI status | 7 | no — only a couple of repos have workflows |
-| **stars** | **6** | only when `stars >= 3` |
-| **license** | 5 | yes |
-| issues | 5 | no — `0 open` reads worse than nothing |
-| release | 4 | only where a release exists |
-| coverage | 4 | no — no coverage service configured |
-| contributors | 3 | no — `1` reads worse than nothing |
-| **commit activity** | 3 | yes (weekly chart lives on the dashboard) |
-| **last commit** | 2 | yes |
-| **language** | — | yes |
-| visitor counter | **0** | yes, with a caveat |
+- **Metadata: Read-only**
+- **Contents: Read and write**
+- **Actions: Read-only** (to detect recent CI runs)
 
-The rule behind the omissions: **never render a number that flatters nobody.**
-Thirty-plus repos with `0` stars in a row look worse than a clean header.
-
-### The visitor counter caveat
-
-The `views` badge comes from [hits.sh](https://hits.sh). GitHub proxies README
-images through its `camo` CDN and caches them, so the badge increments only when
-camo re-fetches — it **under-counts real readers** and is not comparable to the
-`traffic/views` numbers on the dashboard. Treat it as a rough activity signal.
-
-It replaced [komarev.com/ghpvc](https://github.com/antonkomarev/github-profile-views-counter),
-which was verified dead in October 2026: three consecutive requests for a fresh
-username all returned `0`.
+The workflow skips safely when the secret is absent. A manual run can use
+`dry_run=true` to preview changes without writing. The sync is idempotent:
+unchanged READMEs do not receive new commits.
 
 ## Cloud fallback (optional)
 
