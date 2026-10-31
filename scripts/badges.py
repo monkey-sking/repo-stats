@@ -229,10 +229,20 @@ def extra_badges(readme: str, info: dict) -> list[str]:
     return extras
 
 
+def outside_managed(readme: str) -> str:
+    lines = readme.split("\n")
+    span = block_span(lines)
+    if span is None:
+        return readme
+    start, end = span
+    return "\n".join(lines[:start] + lines[end + 1:])
+
+
 def build_block(info: dict, readme: str) -> str:
     name = info["name"]
     branch = info["branch"]
     root = f"https://github.com/{OWNER}/{name}"
+    outside = outside_managed(readme)
     parts: list[str] = []
 
     # Community signals: always show the live values, including zero.
@@ -252,12 +262,13 @@ def build_block(info: dict, readme: str) -> str:
     # License: only when GitHub can identify it or we have checked the custom license.
     spdx = info["license_spdx"]
     license_path = info["license_path"] or "LICENSE"
-    if spdx not in ("none", "NOASSERTION"):
+    license_already = re.search(r"img\.shields\.io/(?:github/license|badge/license|npm/l/)", outside, re.I)
+    if spdx not in ("none", "NOASSERTION") and not license_already:
         parts.append(badge(
             "License", f"https://img.shields.io/github/license/{OWNER}/{name}?style=flat-square",
             f"{root}/blob/{branch}/{license_path}",
         ))
-    elif name in STATIC_LICENSE:
+    elif name in STATIC_LICENSE and not license_already:
         label = STATIC_LICENSE[name]
         parts.append(badge(
             "License", f"https://img.shields.io/badge/license-{label}-blue?style=flat-square",
@@ -265,7 +276,8 @@ def build_block(info: dict, readme: str) -> str:
         ))
 
     # Language is GitHub's detected primary language, not a guessed stack.
-    if info["language"]:
+    language_already = re.search(r"img\.shields\.io/github/languages/top|img\.shields\.io/badge/(?:JavaScript|TypeScript|Python|Go|Swift|Rust|PowerShell|Ruby|C%23|C\+\+|Shell|Bash|HTML|CSS)", outside, re.I)
+    if info["language"] and not language_already:
         language = info["language"]
         parts.append(badge(
             language, f"https://img.shields.io/github/languages/top/{OWNER}/{name}?style=flat-square",
@@ -273,12 +285,12 @@ def build_block(info: dict, readme: str) -> str:
         ))
 
     # A release badge appears only when a real latest release exists.
-    if info["release"]:
+    if info["release"] and not re.search(r"img\.shields\.io/github/v/release", outside, re.I):
         parts.append(badge(
             "Latest Release", f"https://img.shields.io/github/v/release/{OWNER}/{name}?style=flat-square",
             f"{root}/releases/latest",
         ))
-        if info["release_assets"]:
+        if info["release_assets"] and not re.search(r"img\.shields\.io/github/downloads", outside, re.I):
             parts.append(badge(
                 "Downloads", f"https://img.shields.io/github/downloads/{OWNER}/{name}/total?style=flat-square",
                 f"{root}/releases",
@@ -288,18 +300,20 @@ def build_block(info: dict, readme: str) -> str:
     if info["npm"]:
         package = info["npm"]["name"]
         package_url = f"https://www.npmjs.com/package/{package}"
-        parts.append(badge(
-            "npm version", f"https://img.shields.io/npm/v/{package}?style=flat-square",
-            package_url,
-        ))
-        parts.append(badge(
-            "npm downloads", f"https://img.shields.io/npm/dm/{package}?style=flat-square",
-            package_url,
-        ))
+        if not re.search(r"img\.shields\.io/npm/v/", outside, re.I):
+            parts.append(badge(
+                "npm version", f"https://img.shields.io/npm/v/{package}?style=flat-square",
+                package_url,
+            ))
+        if not re.search(r"img\.shields\.io/npm/dm/", outside, re.I):
+            parts.append(badge(
+                "npm downloads", f"https://img.shields.io/npm/dm/{package}?style=flat-square",
+                package_url,
+            ))
 
     # CI badge only when a matching workflow has a recent run on the default branch.
     workflow = info["workflow"]
-    if workflow:
+    if workflow and not re.search(r"/actions/workflows/[^ )]+/badge\.svg", outside, re.I):
         filename = workflow["file"]
         parts.append(badge(
             workflow["label"],
