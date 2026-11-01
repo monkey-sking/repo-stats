@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T01:05:04+00:00",
+ "generated_at": "2026-11-01T01:05:16+00:00",
  "owner": "monkey-sking",
  "days": [
   "2026-10-26",
@@ -7,7 +7,8 @@
   "2026-10-28",
   "2026-10-29",
   "2026-10-30",
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-01"
  ],
  "repos": [
   "Aether",
@@ -29,13 +30,13 @@
   "ai-art-asset-management",
   "ai-memory-hub",
   "aion-downloads",
+  "appewa-full-keyboard",
   "apple-release-public",
   "blog-comments",
   "browser-profile-launcher",
   "chrome-quick-panel",
   "daily-commit-summarizer",
   "dsh-boot-resume",
-  "dsh-boss-panel",
   "dsh-cron-guard",
   "dsh-im-global",
   "dsh-noagent-schedule",
@@ -47,6 +48,7 @@
   "garmin-sync",
   "lingvist",
   "loon-dsh-sync",
+  "loon-scripts-public",
   "match2_level_editor",
   "orion-pwa",
   "plant-mini",
