@@ -36,8 +36,22 @@ day=$(date +%F)
        commit -q -m "data: ${day} snapshot" || fail "commit failed"
 
 if ! push_out=$("$GIT" push -q origin HEAD:main 2>&1); then
-  # Do not rebase. Un-stage nothing either: the commit is local and recoverable.
-  fail "push rejected, 本地已提交但未发布（不自动 rebase）：${push_out##*$'\n'}"
+  # Do not rebase real work. Un-stage nothing either: the commit is local and
+  # recoverable. One exception, added 2026-11-01 after this failed because a
+  # different session had pushed dev commits the night before: when every
+  # unpublished local commit only touches docs/data (auto-generated snapshots),
+  # replaying them is safe. Anything else still fails loudly for a human.
+  "$GIT" fetch -q origin 2>/dev/null
+  if [ -n "$("$GIT" diff --name-only origin/main...HEAD 2>/dev/null | grep -v '^docs/data/' || true)" ]; then
+    fail "push rejected, 本地已提交但未发布（本地提交含非 docs/data 改动，不自动 rebase）：${push_out##*$'\n'}"
+  fi
+  if ! "$GIT" rebase origin/main >/dev/null 2>&1; then
+    "$GIT" rebase --abort >/dev/null 2>&1
+    fail "push rejected 且 rebase 冲突（已回滚，未发布）：${push_out##*$'\n'}"
+  fi
+  if ! push_out=$("$GIT" push -q origin HEAD:main 2>&1); then
+    fail "rebase 后 push 仍失败，本地已提交但未发布：${push_out##*$'\n'}"
+  fi
 fi
 
 echo "已发布 ${day} 快照：$(git show --stat --oneline HEAD | tail -1)"
