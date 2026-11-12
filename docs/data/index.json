@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T01:05:12+00:00",
+ "generated_at": "2026-11-12T01:05:20+00:00",
  "owner": "monkey-sking",
  "days": [
   "2026-10-26",
@@ -18,7 +18,8 @@
   "2026-11-08",
   "2026-11-09",
   "2026-11-10",
-  "2026-11-11"
+  "2026-11-11",
+  "2026-11-12"
  ],
  "repos": [
   "Aether",
@@ -62,6 +63,7 @@
   "loon-scripts-public",
   "match2_level_editor",
   "mcp-meta",
+  "monkey-sking",
   "orion-pwa",
   "plant-mini",
   "ppt-generator",
@@ -69,6 +71,7 @@
   "repo-stats",
   "run",
   "sgcc",
+  "skill-meta",
   "stitch-canvas-manager",
   "sweep",
   "tg-timed-bot",
