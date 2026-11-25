@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T01:05:20+00:00",
+ "generated_at": "2026-11-25T01:05:06+00:00",
  "owner": "monkey-sking",
  "days": [
   "2026-10-26",
@@ -31,7 +31,8 @@
   "2026-11-21",
   "2026-11-22",
   "2026-11-23",
-  "2026-11-24"
+  "2026-11-24",
+  "2026-11-25"
  ],
  "repos": [
   "Aether",
@@ -87,6 +88,7 @@
   "stitch-canvas-manager",
   "sweep",
   "tg-timed-bot",
+  "ujshot",
   "warp-optimizer-public",
   "web-ai-guide-button",
   "x-follow-manager"
