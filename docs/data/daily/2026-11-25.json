@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T01:05:06+00:00",
+ "generated_at": "2026-11-25T01:30:51+00:00",
  "owner": "monkey-sking",
  "repos": {
   "FabHelperScript": {
@@ -8374,346 +8374,3146 @@
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
+   "contributors": 1,
    "size_kb": 1703,
    "topics": [],
    "homepage": null,
    "created_at": "2026-10-29T03:51:50Z",
    "pushed_at": "2026-10-31T13:38:34Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 8,
+    "uniques": 6,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 4,
+      "uniques": 2
+     },
+     "2026-11-14": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "warp-optimizer-public": {
    "name": "warp-optimizer-public",
-   "description": null,
-   "language": null,
-   "license": "none",
+   "description": "Optimize Cloudflare WARP endpoints and export WireGuard/Clash/Loon configs",
+   "language": "Python",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 14,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-10-28T13:30:14Z",
+   "pushed_at": "2026-10-31T13:38:30Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 9,
+    "uniques": 9,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-12": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-13": {
+      "count": 3,
+      "uniques": 3
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 1,
+      "uniques": 1
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "apple-release-public": {
    "name": "apple-release-public",
-   "description": null,
-   "language": null,
-   "license": "none",
+   "description": "Public source snapshot of apple-release — private config and history excluded",
+   "language": "Shell",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 23,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-10-28T13:22:52Z",
+   "pushed_at": "2026-10-31T13:38:16Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 10,
+    "uniques": 8,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 3,
+      "uniques": 1
+     },
+     "2026-11-12": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-13": {
+      "count": 4,
+      "uniques": 4
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "BiYou-public": {
    "name": "BiYou-public",
-   "description": null,
-   "language": null,
-   "license": "none",
+   "description": "Public source snapshot of BiYou — private config and history excluded",
+   "language": "Python",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 609,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-10-28T13:22:09Z",
+   "pushed_at": "2026-10-31T13:38:13Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 10,
+    "uniques": 8,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-12": {
+      "count": 4,
+      "uniques": 3
+     },
+     "2026-11-13": {
+      "count": 3,
+      "uniques": 3
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "aion-downloads": {
    "name": "aion-downloads",
-   "description": null,
+   "description": "Official Aion macOS release downloads",
    "language": null,
    "license": "none",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 9932,
    "topics": [],
-   "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "homepage": "https://aion.7caifei.com/",
+   "created_at": "2026-10-28T10:58:01Z",
+   "pushed_at": "2026-10-31T13:38:10Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 5,
+    "daily": {
+     "2026-11-10": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-11": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-12": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "dsh-sidebar-tidy": {
    "name": "dsh-sidebar-tidy",
-   "description": null,
-   "language": null,
-   "license": "none",
+   "description": "DSH 侧边栏瘦身：隐藏指定面板入口（插件 / 插件市场），不删除宿主插件本身",
+   "language": "JavaScript",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 13,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-10-27T11:22:52Z",
+   "pushed_at": "2026-10-31T13:37:27Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 9,
+    "uniques": 9,
+    "daily": {
+     "2026-11-10": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-11": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "dsh-cron-guard": {
    "name": "dsh-cron-guard",
-   "description": null,
-   "language": null,
-   "license": "none",
+   "description": "Govern DSH scheduled wake-ups: let them cut into the running turn instead of waiting for it, drop stale occurrences, coalesce duplicates, and time out abandoned approval prompts.",
+   "language": "JavaScript",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 31,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-10-27T11:22:34Z",
+   "pushed_at": "2026-10-31T13:37:24Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 6,
+    "uniques": 6,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "DuoStage": {
    "name": "DuoStage",
    "description": null,
-   "language": null,
-   "license": "none",
+   "language": "Swift",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
-   "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "open_issues": 7,
+   "contributors": 1,
+   "size_kb": 45,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-09-10T08:06:17Z",
+   "pushed_at": "2026-10-31T13:36:47Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 5,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-14": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "sweep": {
    "name": "sweep",
-   "description": null,
-   "language": null,
+   "description": "Sweep — AI 开发者的磁盘缓存/聊天记录清理工具（扫描概览、逐个工具清理、Antigravity 单条会话管理、回收站）",
+   "language": "Python",
    "license": "none",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 80,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-08-14T02:57:27Z",
+   "pushed_at": "2026-10-31T13:36:14Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 5,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-14": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "ReviewHub": {
    "name": "ReviewHub",
    "description": null,
-   "language": null,
+   "language": "JavaScript",
    "license": "none",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 658,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-05-30T01:26:02Z",
+   "pushed_at": "2026-10-31T13:35:54Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 4,
+    "uniques": 4,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-14": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "Aether_Website": {
    "name": "Aether_Website",
    "description": null,
-   "language": null,
+   "language": "TypeScript",
    "license": "none",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 3147955,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-03-20T03:11:44Z",
+   "pushed_at": "2026-10-31T13:35:25Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    108,
+    70,
+    11,
+    5,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    3,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 4,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 3,
+      "uniques": 3
+     },
+     "2026-11-14": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "Portfolio": {
    "name": "Portfolio",
    "description": null,
-   "language": null,
-   "license": "none",
+   "language": "HTML",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 1785,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-02-04T03:26:00Z",
+   "pushed_at": "2026-10-31T13:35:16Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 5,
+    "daily": {
+     "2026-11-10": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-14": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "Aether": {
    "name": "Aether",
    "description": null,
-   "language": null,
+   "language": "Swift",
    "license": "none",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 7428,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-03-06T09:52:23Z",
+   "pushed_at": "2026-10-31T13:08:47Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    6,
+    59,
+    0,
+    17,
+    46,
+    53,
+    123,
+    64,
+    22,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 5,
+    "daily": {
+     "2026-11-10": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 3,
+      "uniques": 3
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "loon-scripts-public": {
    "name": "loon-scripts-public",
-   "description": null,
-   "language": null,
+   "description": "Public delivery mirror for Loon scripts (private source: loon-scripts)",
+   "language": "JavaScript",
    "license": "none",
    "stars": 0,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 2,
+   "size_kb": 20,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2026-10-31T02:42:34Z",
+   "pushed_at": "2026-10-31T03:16:10Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 5,
+    "daily": {
+     "2026-11-10": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-11": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-12": {
+      "count": 1,
+      "uniques": 1
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "run": {
    "name": "run",
    "description": null,
-   "language": null,
-   "license": "none",
+   "language": "Python",
+   "license": "MIT",
    "stars": 0,
    "forks": 0,
-   "watchers": 0,
+   "watchers": 1,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 90,
+   "size_kb": 101842,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2023-10-26T12:26:16Z",
+   "pushed_at": "2026-06-11T13:37:50Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 5,
+    "uniques": 4,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 3,
+      "uniques": 2
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 2,
+      "uniques": 2
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   },
   "sgcc": {
    "name": "sgcc",
    "description": null,
-   "language": null,
-   "license": "none",
-   "stars": 0,
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 1,
    "forks": 0,
    "watchers": 0,
    "open_issues": 0,
-   "contributors": null,
-   "size_kb": 0,
+   "contributors": 1,
+   "size_kb": 22,
    "topics": [],
    "homepage": null,
-   "created_at": null,
-   "pushed_at": null,
+   "created_at": "2025-12-11T13:57:41Z",
+   "pushed_at": "2026-06-11T13:37:42Z",
    "archived": false,
-   "weekly_commits": [],
-   "views": null,
-   "clones": null,
+   "weekly_commits": [
+    0,
+    0,
+    1,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "views": {
+    "total": 0,
+    "uniques": 0,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
+   "clones": {
+    "total": 3,
+    "uniques": 2,
+    "daily": {
+     "2026-11-10": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-11": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-12": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-13": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-14": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-15": {
+      "count": 3,
+      "uniques": 2
+     },
+     "2026-11-16": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-17": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-18": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-19": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-20": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-21": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-22": {
+      "count": 0,
+      "uniques": 0
+     },
+     "2026-11-23": {
+      "count": 0,
+      "uniques": 0
+     }
+    }
+   },
    "referrers": [],
    "paths": []
   }
