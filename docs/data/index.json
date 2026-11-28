@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T01:05:18+00:00",
+ "generated_at": "2026-11-28T01:05:17+00:00",
  "owner": "monkey-sking",
  "days": [
   "2026-10-26",
@@ -34,7 +34,8 @@
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
-  "2026-11-27"
+  "2026-11-27",
+  "2026-11-28"
  ],
  "repos": [
   "Aether",
@@ -79,6 +80,7 @@
   "match2_level_editor",
   "mcp-meta",
   "monkey-sking",
+  "organon",
   "orion-pwa",
   "plant-mini",
   "ppt-generator",
